@@ -274,3 +274,64 @@ bottom: 0px;
       margin-right: 10px;
   }
 }
+
+.Balletskolen {
+    background-color: #f2f7f3;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.Content2 img {
+    width: 100px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px; 
+    padding-top: 30px;   
+}
+
+.Content2 {
+    background-color: #97cfeb;
+    padding: 20px;
+
+}
+
+.Content_Inside2 {
+    background-color: #1a1618; 
+    
+}
+.Content_Inside2 p {
+    color: #f2f7f3;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-family: 'Raleway';
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.Content_Inside2 h3 {
+    color: #f2f7f3;
+    font-family: 'Raleway';
+    font-size: 43px;
+    padding-left: 45px;
+} 
+
+@media only screen and (min-width:700px) {
+  .Content_Inside2 {
+      margin-left: 400px;
+      margin-right: 400px;
+  }  
+  .Content_Inside2 h3 {
+      margin-left: 40px;
+  }
+
+  .Content_Inside2 p {
+      margin-left: 25px;
+      margin-right: 10px;
+  }
+}

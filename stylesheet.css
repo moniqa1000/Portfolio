@@ -530,3 +530,76 @@ bottom: 0px;
       height: 220px;
   }
 }
+.whole_body {
+    background-color: #cc7f3d;
+}
+
+.hvem_er_jeg {
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background-color: #f2f7f3;
+    padding-bottom: 20px;
+}
+
+.portrait_me {
+    height: 380px;
+    width: auto;
+    padding-bottom: 60px;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    background-color: #f2f7f3;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 15px;
+    padding-bottom: -5px;
+}
+
+.fivefacts {
+    width: 300px;
+    margin-left: 35px;
+    margin-top: -10px;
+}
+
+.kontakt {
+    width: 300px;
+    margin-left: 35px;
+    padding-top: 60px;
+}
+
+.whole_body p {
+    background-color: #1a1618;
+    color: #f2f7f3;
+    padding: 20px;
+    margin-top: 60px;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size: 22px;
+}
+
+.erfaring {
+    margin-left: 40px;
+    padding-bottom: 40px;
+}
+@media only screen and (min-width:700px) {
+    .whole_body {
+        float: left;
+    }
+
+    .portrait_me {
+        margin-left: 70px;
+        margin-top: 50px;
+    }
+
+    .hvem_er_jeg {
+        font-size: 40px;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        background-color: #f2f7f3;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+}

@@ -403,7 +403,7 @@ bottom: 0px;
       padding-top: 50px;
   }
 }
-}
+
 .Bag_rattet2 {
     background-color: #f2f7f3;
     text-align: center;
@@ -413,8 +413,8 @@ bottom: 0px;
 }
 
 .Content5 img {
-    width: 200px;
-    height: 400px;
+    width: auto;
+    height: 500px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -447,7 +447,7 @@ bottom: 0px;
     color: #f2f7f3;
     font-family: 'Raleway';
     font-size: 53px;
-    padding-left: 55px;
+    padding-left: 30px;
 } 
 
 @media only screen and (min-width:700px) {
@@ -460,7 +460,7 @@ bottom: 0px;
   }
 
   .Content_Inside5 p {
-      margin-left: 25px;
+      margin-left: 10px;
       margin-right: 10px;
   }
   .Content5 img {

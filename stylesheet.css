@@ -519,7 +519,7 @@ bottom: 0px;
       margin-right: 400px;
   }  
   .Content_Inside6 h3 {
-      margin-left: 40px;
+      margin-left: 20px;
   }
 
   .Content_Inside6 p {
@@ -528,5 +528,7 @@ bottom: 0px;
   }
   .Content6 Video {
       padding-top: 50px;
+      height: 300;
+      width: auto;
   }
 }

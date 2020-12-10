@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 *
 {
     font-family: 'Raleway', sans-serif;
@@ -160,6 +161,10 @@ bottom: 0px;
 
 }
 
+.foot p {
+    padding-left: 10px;
+}
+
 @media only screen and (min-width:700px) {
     .button-container .portait_red {
         display: flex;
@@ -207,4 +212,54 @@ bottom: 0px;
     height: 400px; 
     background-color: #1a1618;
     padding: 20px;
+}
+
+.Rummet {
+    background-color: #f2f7f3;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.Content1 img {
+    width: 300px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px; 
+    padding-top: 30px;   
+}
+
+.Content1 {
+    background-color: #97cfeb;
+    padding: 20px;
+
+}
+
+.Content_Inside {
+    background-color: #1a1618; 
+    
+}
+.Content_Inside p {
+    color: #f2f7f3;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-family: 'Raleway';
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.Content_Inside h3 {
+    color: #f2f7f3;
+    font-family: 'Raleway';
+    font-size: 43px;
+    padding-left: 25px;
+} 
+
+@media only screen and (min-width:700px) {
+    
 }

@@ -275,7 +275,7 @@ bottom: 0px;
   }
 }
 
-.Balletskolen {
+.Bollywood {
     background-color: #f2f7f3;
     text-align: center;
     margin-top: 20px;
@@ -283,9 +283,9 @@ bottom: 0px;
     margin-bottom: 20px;
 }
 
-.Content2 img {
-    width: 100px;
-    height: 400px;
+.Content3 img {
+    width: 285px;
+    height: 385px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -293,19 +293,19 @@ bottom: 0px;
     padding-top: 30px;   
 }
 
-.Content2 {
+.Content3 {
     background-color: #97cfeb;
     padding: 20px;
 
 }
 
-.Content_Inside2 {
+.Content_Inside3 {
     background-color: #1a1618; 
     
 }
-.Content_Inside2 p {
+.Content_Inside3 p {
     color: #f2f7f3;
-    padding-left: 30px;
+    padding-left: 35px;
     padding-right: 30px;
     padding-bottom: 40px;
     font-size: 20px;
@@ -314,24 +314,29 @@ bottom: 0px;
     font-weight: 500;
 }
 
-.Content_Inside2 h3 {
+.Content_Inside3 h3 {
     color: #f2f7f3;
     font-family: 'Raleway';
-    font-size: 43px;
-    padding-left: 45px;
+    font-size: 45px;
+    padding-left: 55px;
 } 
 
 @media only screen and (min-width:700px) {
-  .Content_Inside2 {
+    .Content3 img {
+        width: 375px;
+        height: 475px;
+    }
+  .Content_Inside3 {
       margin-left: 400px;
       margin-right: 400px;
   }  
-  .Content_Inside2 h3 {
-      margin-left: 40px;
+  .Content_Inside3 h3 {
+      font-size: 60px;
+      margin-left: 15px;
   }
 
-  .Content_Inside2 p {
-      margin-left: 25px;
+  .Content_Inside3 p {
+      margin-left: 15px;
       margin-right: 10px;
   }
 }

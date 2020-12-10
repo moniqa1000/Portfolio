@@ -526,9 +526,7 @@ bottom: 0px;
       margin-left: 10px;
       margin-right: 10px;
   }
-  .Content6 Video {
-      padding-top: 50px;
-      height: 300;
-      width: auto;
+  .Content6 video {
+      height: 220px;
   }
 }

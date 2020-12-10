@@ -169,9 +169,19 @@ color: #f2f7f3;
 
 .projects {
     background-color: #f2f7f3;
-    
+    text-align: center;
+    margin-top: 20px;
 }
 
 .row {
     background-color: #97cfeb;
+}
+
+.row .column {
+    padding: 10px;
+}
+
+.content img {
+    width: 300px;
+    height: 400px; 
 }

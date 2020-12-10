@@ -107,12 +107,62 @@ position:relative;
 .button-container a{
 text-decoration: none;
 position: absolute;
-font-size: 20px;
+font-size: 30px;
 bottom:10%;
 right:10%;
-background-color:#8F0005;
+background-color:#97cfeb;
+border-radius:20px;
+color: #f2f7f3;
+text-transform:uppercase;
+padding:1em 1.5em;
+}
+
+.button-container1{
+display:inline-block;
+position:relative;
+}
+          
+.button-container1 a{
+text-decoration: none;
+position: absolute;
+font-size: 30px;
+bottom:10%;
+left:10%;
+background-color:#cc7f3d;
 border-radius:20px;
 color:white;
 text-transform:uppercase;
 padding:1em 1.5em;
+}
+
+.button-container1 .portait_sort {
+    margin-top: -5px;
+}
+.foot {
+display: flex;
+background-color: #1a1618;
+margin-top: -5px;
+color: #f2f7f3;
+
+}
+
+.foot p {
+    margin-left: 20px;
+
+}
+
+@media only screen and (min-width:700px) {
+    .button-container .portait_red {
+        float: left;
+        width: 55%;
+    }
+    .button-container1 .portait_sort {
+        float: right;
+        width: 55%;
+        margin-right: 0px;
+    }
+    .foot .fab {
+        
+    }
+        
 }

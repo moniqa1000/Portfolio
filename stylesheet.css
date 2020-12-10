@@ -35,6 +35,7 @@ margin: 0px;
     background-color: #1a1618;
     color: #f2f7f3;
     float: left;
+    position: absolute;
 }
 
 .menu a {
@@ -186,19 +187,21 @@ bottom: 0px;
     background-color: #f2f7f3;
     text-align: center;
     margin-top: 20px;
+    font-size: 40px;
 }
 
 .row {
     background-color: #97cfeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 40px;
 }
 
 .row .column {
     padding: 10px;
 }
 
-.content {
-    
-}
 .content img {
     width: 300px;
     height: 400px; 

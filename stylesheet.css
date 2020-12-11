@@ -586,12 +586,15 @@ h3 {
 }
 @media only screen and (min-width:700px) {
     .whole_body {
-        float: left;
+        display: flex;
+        flex-direction: column;
     }
 
     .portrait_me {
-        margin-left: 70px;
+        margin-left: 120px;
         margin-top: 50px;
+        width: 450px;
+        height: auto;
     }
 
     .hvem_er_jeg {
@@ -601,6 +604,36 @@ h3 {
         background-color: #f2f7f3;
         padding-bottom: 20px;
         padding-top: 20px;
+    }
+
+    .whole_body h3 {
+        width: 270px;
+        margin-left: 120px;
+        margin-top: -21px;
+
+    }
+
+    .whole_body .kontakt {
+        margin-left: 758px;
+        margin-top: -606px;
+    }
+
+    .whole_body p {
+        width: 400px;
+        height: auto;
+        margin-top: -785px;
+        margin-left: 620px;
+    }
+
+    .whole_body .erfaring {
+        width: fit-content;
+        padding-bottom: 200px;
+        margin-left: 440px;
+        margin-top: 16px;
+
+    }
+    .whole_body .fivefacts {
+        margin-left: 120px;
     }
 }
 
